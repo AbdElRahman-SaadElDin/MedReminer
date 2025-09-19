@@ -8,7 +8,7 @@ import TableOriginUI from "@/components/TableOriginUI";
 import React, { useMemo, useState } from "react";
 import type { DateRange } from "react-day-picker";
 
-export default function page() {
+export default function Dashboard() {
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
   const [filters, setFilters] = useState<Filters>({
     realTime: false,

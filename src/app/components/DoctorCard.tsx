@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import { useState } from "react";

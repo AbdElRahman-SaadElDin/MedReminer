@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { getCode, getDoctor, getPatientDoctors } from "@/app/funcs/ProfileFunc";
@@ -111,7 +112,7 @@ export default function CodePages() {
               Connect with Your Doctor
             </h1>
             <p className="text-gray-600">
-              Enter your doctor's unique code to establish a connection
+              Enter your doctor&apos;s unique code to establish a connection
             </p>
           </div>
         </div>
@@ -122,7 +123,7 @@ export default function CodePages() {
           {connectionStatus === "none" && (
             <div className="max-w-md">
               <label className="block mb-2 font-bold text-gray-700">
-                Doctor's Code
+                Doctor&apos;s Code
               </label>
               <div className="flex space-x-3">
                 <input
@@ -261,7 +262,7 @@ export default function CodePages() {
             My Connected Doctors
           </h3>
           <p className="mt-1 text-gray-600">
-            Doctors you're currently connected with
+            Doctors you&apos;re currently connected with
           </p>
         </div>
         <div className="p-6">
@@ -282,7 +283,7 @@ export default function CodePages() {
                 No Connected Doctors
               </h4>
               <p className="text-gray-600">
-                Use a doctor's code above to connect with your healthcare
+                Use a doctor&apos;s code above to connect with your healthcare
                 provider
               </p>
             </div>

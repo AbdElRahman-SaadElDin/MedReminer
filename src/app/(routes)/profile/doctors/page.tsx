@@ -277,7 +277,7 @@ const EmptyState: React.FC = () => {
         No doctors found
       </h3>
       <p className="mt-2 text-sm text-gray-500 max-w-md mx-auto">
-        We couldn't find any doctors matching your search criteria. Try
+        We couldn&apos;t find any doctors matching your search criteria. Try
         adjusting your search terms or browse all available doctors.
       </p>
     </div>
@@ -373,7 +373,7 @@ export default function DoctorsPage() {
               Showing {visibleDoctors.length} of {filteredDoctors.length}{" "}
               doctors
               {searchTerm && (
-                <span className="text-gray-500"> for "{searchTerm}"</span>
+                <span className="text-gray-500"> for &quot;{searchTerm}&quot;</span>
               )}
             </p>
             {searchTerm && (

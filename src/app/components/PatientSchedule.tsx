@@ -54,7 +54,7 @@ export default function PatientSchedule() {
 					</h3>
 
 					<p className='text-gray-600 mb-6'>
-						You don't have any upcoming appointments with your doctors. Schedule one
+						You don&apos;t have any upcoming appointments with your doctors. Schedule one
 						to stay on track with your health.
 					</p>
 

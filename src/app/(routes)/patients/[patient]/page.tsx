@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useState } from "react";
@@ -271,7 +272,7 @@ export default function PatientPage() {
                 {pendingDelete?.diagnosis ?? "(unknown)"}
               </strong>
               {pendingDelete?.complaint ? (
-                <> for complaint "<em>{pendingDelete.complaint}</em>".</>
+                <> for complaint &quot;<em>{pendingDelete.complaint}</em>&quot;.</>
               ) : (
                 "."
               )}

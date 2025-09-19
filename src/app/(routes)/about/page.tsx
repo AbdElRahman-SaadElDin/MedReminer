@@ -8,7 +8,7 @@ interface FormData {
   email: string;
   message: string;
 }
-export default function about() {
+export default function About() {
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     email: "",

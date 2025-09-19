@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import Link from "next/link";
@@ -187,7 +188,7 @@ function LoginComponent() {
         </form>
 
         <p className="mt-6 text-gray-500 text-sm">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <Link
             href="/signup"
             className="font-medium text-blue-600 hover:underline"

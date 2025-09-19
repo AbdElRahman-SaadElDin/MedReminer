@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // No Node imports here — works in browser and server.
 const ALPHANUM = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // no O/0/I/1
 

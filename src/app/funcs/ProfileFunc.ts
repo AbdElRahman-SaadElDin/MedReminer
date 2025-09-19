@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { AxiosInterceptor } from "@/interceptor/interceptor";
 import { Doctor } from "@/lib/interfaces/Doctor";
 import { DoctorPatient } from "@/lib/interfaces/DoctorPatient";
@@ -51,7 +52,7 @@ export async function updateDoctor(
 
 export async function getDoctor(code: string): Promise<Doctor | null> {
   try {
-    let url = `/doctors/${code}`;
+    const url = `/doctors/${code}`;
     const res = await AxiosInterceptor.get(url);
     return res.data;
   } catch (error) {

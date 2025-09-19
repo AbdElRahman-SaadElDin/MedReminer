@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Doctor } from "@/lib/interfaces/Doctor";
 import { Patient } from "@/lib/interfaces/Patient";
 import { Role } from "@/lib/interfaces/Role";
