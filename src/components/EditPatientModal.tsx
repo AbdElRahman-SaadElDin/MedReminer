@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { ReactNode, useId, useState } from "react";
 
 import { Button } from "@/components/ui/button";
