@@ -4,14 +4,15 @@ A comprehensive healthcare management platform that bridges the gap between medi
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Test Accounts](#-test-accounts)
+- [Project Structure](#-project-structure)
+- [API Documentation](#-api-documentation)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
 
 ## 🎯 Overview
 
@@ -138,6 +139,38 @@ MedReminder is a modern, full-stack healthcare application designed to streamlin
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
+
+## 🔐 Test Accounts
+
+For testing and demonstration purposes, the following demo accounts are available to explore the platform's functionality:
+
+### 👨‍⚕️ Doctor Account
+
+- **Email**: `abdelrahmansaad@gmail.com`
+- **Password**: `SaadSaadSaad@@777`
+- **Role**: Medical Professional
+- **Access Level**: Full administrative access
+- **Available Features**:
+  - Patient management dashboard
+  - Appointment scheduling and calendar
+  - Medical records management
+  - Diagnosis and treatment tracking
+  - Patient communication tools
+  - Analytics and reporting
+
+### 🧑‍🦰 Patient Account
+
+- **Email**: `mazen@gmail.com`
+- **Password**: `SaadSaadSaad@@777`
+- **Role**: Patient
+- **Access Level**: Patient portal access
+- **Available Features**:
+  - View upcoming appointments
+  - Access personal medical records
+  - Track treatment progress
+  - Communicate with healthcare providers
+  - Manage personal profile
+  - Receive appointment reminders
 
 ## 📁 Project Structure
 
