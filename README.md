@@ -227,7 +227,8 @@ The application uses a Fast API for mock API endpoints:
 
 ### Vercel Deployment (Recommended)
 
-- **Base URL**: https://fast-api-dnk5.vercel.app/
+- **API Base URL**: https://fast-api-dnk5.vercel.app/
+- **App Demo Link**: https://medreminder-bay.vercel.app/
 
 ### Alternative Deployment Options
 
