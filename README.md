@@ -4,8 +4,8 @@ A comprehensive healthcare management platform that bridges the gap between medi
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
+- [Overview](##overview)
+- [Features](##features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
